@@ -1,0 +1,17 @@
+{
+  "_comment": "All tunable constants live here, never hardcoded in scripts. Loaded once at startup. This is the one habit worth keeping from day one — when you want to retune the game later, you edit data, not code.",
+
+  "hex": {
+	"_comment": "size = distance from a hex's center to any of its corners, in pixels. Orientation is 'pointy-top' (a corner points up). grid_radius = how many rings of hexes around the center hex (radius 4 = 61 hexes).",
+	"size": 48.0,
+	"orientation": "pointy",
+	"grid_radius": 4
+  },
+
+  "colors": {
+	"_comment": "Hex RGBA colors as 0-1 floats, the format Godot's Color() expects.",
+	"tile_fill":    [0.22, 0.27, 0.20, 1.0],
+	"tile_outline": [0.35, 0.42, 0.32, 1.0],
+	"tile_hover":   [0.45, 0.55, 0.35, 1.0]
+  }
+}

@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://bpmg7gewy6u76"]
+
+[ext_resource type="Script" uid="uid://bpoa6loonpvso" path="res://presentation/hex_grid_view.gd" id="1_view"]
+
+[node name="Main" type="Node2D" unique_id=218536403]
+script = ExtResource("1_view")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=303846989]
+
+[node name="HUD" type="CanvasLayer" parent="." unique_id=463264343]
+
+[node name="CoordLabel" type="Label" parent="HUD" unique_id=561443725]
+offset_left = 16.0
+offset_top = 12.0
+offset_right = 360.0
+offset_bottom = 44.0
+theme_override_font_sizes/font_size = 22
+text = "hover a hex"
